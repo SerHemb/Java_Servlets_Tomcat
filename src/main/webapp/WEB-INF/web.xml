@@ -5,11 +5,32 @@
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>com.hembei.servlet.HelloServlet</servlet-class>
+
+    </servlet>
+
+    <servlet>
         <servlet-name>ParametrsPrint</servlet-name>
         <servlet-class>com.hembei.servlet.ParametrsPrint</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>IndexJcpController</servlet-name>
+        <servlet-class>com.hembei.servlet.IndexJcpController</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ParametrsPrint</servlet-name>
+        <url-pattern>/print</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>IndexJcpController</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
 </web-app>

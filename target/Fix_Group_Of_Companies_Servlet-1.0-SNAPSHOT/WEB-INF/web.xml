@@ -5,10 +5,13 @@
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>com.hembei.servlet.HelloServlet</servlet-class>
+        <servlet-name>ParametrsPrint</servlet-name>
+        <servlet-class>com.hembei.servlet.ParametrsPrint</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/HelloServlet</url-pattern>
         <url-pattern>/hello</url-pattern>
+        <servlet-name>ParametrsPrint</servlet-name>
+        <url-pattern>/print</url-pattern>
     </servlet-mapping>
 </web-app>

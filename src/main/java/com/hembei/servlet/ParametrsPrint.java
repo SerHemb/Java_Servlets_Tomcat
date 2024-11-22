@@ -6,6 +6,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class ParametrsPrint extends HttpServlet {
     @Override
@@ -16,7 +17,8 @@ public class ParametrsPrint extends HttpServlet {
         int km = Integer.parseInt(kmString);
         double kg = Double.parseDouble(kgString);
 
-        System.out.println("KM = " + km);
-        System.out.println("KG = " + kg);
+        PrintWriter writer = response.getWriter();
+        writer.write("KM = " + km);
+        writer.write("   KG = " + kg);
     }
 }

@@ -1,3 +1,7 @@
 /home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/HelloServlet.java
 /home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/IndexJcpController.java
 /home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/ParametrsPrint.java
+/home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/SessionCount.java
+/home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/cookies/DeleteCookiesServlet.java
+/home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/cookies/GetCookiesServlet.java
+/home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/cookies/SetCookiesServlet.java

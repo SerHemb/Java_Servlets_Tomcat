@@ -1,7 +1,10 @@
-<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
-         version="2.4">
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        xmlns = "https://jakarta.ee/xml/ns/jakartaee"
+        xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation = "https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+        version = "5.0">
+
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>com.hembei.servlet.HelloServlet</servlet-class>
@@ -13,11 +16,6 @@
         <servlet-class>com.hembei.servlet.ParametrsPrint</servlet-class>
     </servlet>
 
-    <servlet>
-        <servlet-name>IndexJcpController</servlet-name>
-        <servlet-class>com.hembei.servlet.IndexJcpController</servlet-class>
-    </servlet>
-
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
@@ -26,11 +24,6 @@
     <servlet-mapping>
         <servlet-name>ParametrsPrint</servlet-name>
         <url-pattern>/print</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>IndexJcpController</servlet-name>
-        <url-pattern>/index</url-pattern>
     </servlet-mapping>
 
 </web-app>

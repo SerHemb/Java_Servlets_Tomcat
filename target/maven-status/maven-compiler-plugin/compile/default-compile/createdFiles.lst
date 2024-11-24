@@ -1,3 +1,7 @@
-com/hembei/servlet/ParametrsPrint.class
+com/hembei/servlet/SessionCount.class
+com/hembei/servlet/cookies/DeleteCookiesServlet.class
 com/hembei/servlet/HelloServlet.class
 com/hembei/servlet/IndexJcpController.class
+com/hembei/servlet/cookies/SetCookiesServlet.class
+com/hembei/servlet/ParametrsPrint.class
+com/hembei/servlet/cookies/GetCookiesServlet.class

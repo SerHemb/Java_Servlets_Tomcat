@@ -4,4 +4,5 @@ com/hembei/servlet/HelloServlet.class
 com/hembei/servlet/IndexJcpController.class
 com/hembei/servlet/cookies/SetCookiesServlet.class
 com/hembei/servlet/ParametrsPrint.class
+com/hembei/servlet/database/SqlManipulation.class
 com/hembei/servlet/cookies/GetCookiesServlet.class

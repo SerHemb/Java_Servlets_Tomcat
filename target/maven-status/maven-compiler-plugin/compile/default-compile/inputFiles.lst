@@ -5,3 +5,4 @@
 /home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/cookies/DeleteCookiesServlet.java
 /home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/cookies/GetCookiesServlet.java
 /home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/cookies/SetCookiesServlet.java
+/home/hembei/IdeaProjects/Java_Servlets_Tomcat/src/main/java/com/hembei/servlet/database/SqlManipulation.java

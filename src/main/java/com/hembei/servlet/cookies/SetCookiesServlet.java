@@ -12,8 +12,7 @@ import java.io.IOException;
 @WebServlet ("/set-cookie")
 public class SetCookiesServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Cookie cookie = new Cookie("name", "12345");
         cookie.setMaxAge(24 * 60 * 60);
         resp.addCookie(cookie);

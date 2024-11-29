@@ -12,8 +12,7 @@ import java.io.IOException;
 @WebServlet ("/delete-cookie")
 public class DeleteCookiesServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Cookie cookie = new Cookie("name", "");
         cookie.setMaxAge(0);
         //cookie.setMaxAge(-1); - delete cookie when browser will close;

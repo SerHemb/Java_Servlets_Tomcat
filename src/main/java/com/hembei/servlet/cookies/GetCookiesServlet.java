@@ -15,8 +15,7 @@ import java.util.List;
 @WebServlet ("/get-cookie")
 public class GetCookiesServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Cookie> list = new ArrayList<>(List.of(req.getCookies()));
 
         PrintWriter pw = resp.getWriter();
